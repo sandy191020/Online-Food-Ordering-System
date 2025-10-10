@@ -137,9 +137,9 @@ $dbname = "food_ordering";
 </ul>
 
 <h2>📫 Contact</h2>
-<p>Made with ❤️ by <b>Sandeep Singh</b><br>
-📧 Email: your.email@example.com<br>
-📱 Instagram: <a href="https://www.instagram.com/s_.andeeep" target="_blank">@s_.andeeep</a></p>
+<p>Made with ❤️ by <b>Sandeep </b><br>
+📧 Email: s62588874@gmail.com<br>
+📱 Instagram: <a href="https://www.instagram.com/sand.eep_19" target="_blank">@s_.andeeep</a></p>
 
 <p class="center">✨ Thank you for checking out my project! Enjoy ordering! 🍕🍔🍟</p>
 
