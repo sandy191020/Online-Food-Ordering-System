@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: #fdfdfd;
+    color: #333;
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 0;
+    padding: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('shub.jpg') no-repeat center center/cover;
+    filter: blur(60px);
+    z-index: -1;
+    border-radius: 12px;
+}
+
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    background: url('shub.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: relative;
+    top: -40px;
+    z-index: 2;
+    border-radius: 20px;
+    animation: fadeIn 2s ease-in;
+    background-size: 105%;
+    transition: background-size 3s ease;
+}
+
+.hero:hover {
+    background-size: 110%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Gradient Text Styling for Hero Section */
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ffffff, #b93c26, #ff0000); /* Gradient colors */
+    -webkit-background-clip: text;  /* Clip the background to the text */
+    color: transparent;  /* Make the text transparent so the gradient shows */
+}
+
+.hero p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    background: linear-gradient(to right, #ded3d1,  #FF512f); /* Gradient colors */
+    -webkit-background-clip: text;  /* Clip the background to the text */
+    color: transparent;  /* Make the text transparent so the gradient shows */
+}
+
+/* Registration Section Styling */
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Make buttons stacked and uniform */
+.register button {
+    width: 260px;
+    margin: 10px 0;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(180, 180, 180);
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.register button:hover {
+    background-color: black;
+    color: #FF512f;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+/* Remove anchor styling inside buttons */
+.register button a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    opacity: 1; /* Ensure it's fully visible */
+    transform: none; /* Remove any transformation */
+    animation: none; /* Remove the animation */
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.feedback i {
+    color: #ffffff;
+}
+
+.feedback a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0b3562;
+}
+
+.feedback a:hover {
+    text-decoration: underline;
+}

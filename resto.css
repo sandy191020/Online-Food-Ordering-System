@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url('restaurant-interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.1); /* white with transparency */
+    backdrop-filter: blur(10px); /* adds blur effect */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.mailid,
+.passw {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+.name{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+.confirm{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+.submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+button.submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.form h4 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form h4 a {
+    text-decoration: none;
+    color: black;
+}
