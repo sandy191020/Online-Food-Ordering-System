@@ -9,6 +9,7 @@
 
 <h1>🍔 Online Food Ordering System</h1>
 <p class="center"><i>A modern, interactive full-stack food ordering platform built with <b>PHP</b>, <b>MySQL</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.</i></p>
+<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/6e7c2ab2-a61e-4d49-815d-1eb78a1e88f1" />
 ![Uploading image.png…]()
 ![Uploading image.png…]()
 
